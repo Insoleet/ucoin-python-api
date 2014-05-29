@@ -111,7 +111,6 @@ class Recipient(Base):
                                        begin=self.begin, end=self.end)
 
 
-#TODO: Manager /refering/pgp_fingerprint/tx_number/
 class Refering(Base):
     """GET all the transactions refering to source
         transaction #[TX_NUMBER] issued by [PGP_FINGERPRINT]."""
